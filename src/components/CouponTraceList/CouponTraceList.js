@@ -122,7 +122,7 @@ class CouponTraceList extends React.Component {
                                             <input type="text" className="search form-control" name="couponSearch"
                                                    ref="couponSearch"
                                                    onChange={this.handleChange}
-                                                   placeholder="Search With Coupon ID"/>
+                                                   placeholder="Search With Coupon Code"/>
                                         </div>
                                         <div className="input-group">
                                             <button onClick={this.loadCoupons}
