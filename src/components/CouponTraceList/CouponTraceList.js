@@ -101,13 +101,13 @@ class CouponTraceList extends React.Component {
                                         <div className="col-5 card text-center">
                                             <div className="card-body">
                                                 <h1 className="card-text">{this.state.allCoupons.length}</h1>
-                                                <p className="card-title">Total Coupons</p>
+                                                <p className="card-title">Total Coupon Errors</p>
                                             </div>
                                         </div>
                                         <div className="col-5 card text-center">
                                             <div className="card-body">
                                                 <h1 className="card-text">{this.state.last24HrRecord}</h1>
-                                                <p className="card-title">Last 24Hrs</p>
+                                                <p className="card-title">Errors In Last 24Hrs </p>
                                             </div>
                                         </div>
                                     </div>
