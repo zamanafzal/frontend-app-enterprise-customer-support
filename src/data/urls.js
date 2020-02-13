@@ -1,0 +1,1 @@
+export const CouponTrace = 'http://localhost:18130/api/v2/enterprise/coupon_trace';

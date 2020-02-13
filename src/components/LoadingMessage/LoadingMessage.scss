@@ -1,0 +1,14 @@
+.loading {
+    background: #f2f8fb;
+    font-size: 1.125rem;
+    
+    &.table-loading,
+    &.request-codes {
+        height: 360px;
+    }
+
+    &.overview,
+    &.coupons {
+        height: 180px;
+    }
+}

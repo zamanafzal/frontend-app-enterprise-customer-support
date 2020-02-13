@@ -1,0 +1,126 @@
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+     padding-bottom: 20px;
+ }
+.card {
+  background-color: #1fc8db;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(141deg, rgba(4, 183, 184, 0.76), #1fc8db 44.12%, #2cb5e8 82.35%);
+  border: none;
+    border-radius: 25px !important;
+}
+
+.card-title {
+  color: white;
+  font-family: 'Open-Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+    margin-bottom: 0px !important;
+  text-align: right;
+}
+
+.card-text {
+    color: white;
+    font-family: 'Open-Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    text-align: left;
+    font-size: 4rem;
+}
+
+.form-control {
+    border-radius: 25px !important;
+}
+.tableTitle {
+    line-height: 1;
+    color: black;
+    font-family: 'Open-Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 1.75rem;
+    margin: 1.75rem 0 1rem;
+}
+/* The container */
+.customCheckmarkWrap {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    color: black;
+    font-family: 'Open-Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 2rem;
+}
+
+/* Hide the browser's default checkbox */
+.customCheckmarkWrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1.2rem;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.customCheckmarkWrap:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.customCheckmarkWrap input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.customCheckmarkWrap input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.customCheckmarkWrap .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.table td {
+    border: 0px !important;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}

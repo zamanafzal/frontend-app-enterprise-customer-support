@@ -11,7 +11,7 @@ import Header, { messages as headerMessages } from '@edx/frontend-component-head
 import Footer, { messages as footerMessages } from '@edx/frontend-component-footer';
 
 import appMessages from './i18n';
-import ExamplePage from './example/ExamplePage';
+import CouponTraceList from './components/CouponTraceList/CouponTraceList';
 
 import './index.scss';
 import './assets/favicon.ico';
@@ -20,7 +20,7 @@ subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider>
       <Header />
-      <ExamplePage />
+      <CouponTraceList />
       <Footer />
     </AppProvider>,
     document.getElementById('root'),
